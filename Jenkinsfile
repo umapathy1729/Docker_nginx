@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/username/repository.git', branch: 'main'
+                git url:'https://github.com/umapathy1729/Docker_nginx.git', branch: 'main'
             }
         }
 
