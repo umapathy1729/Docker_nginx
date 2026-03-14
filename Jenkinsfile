@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = "yourdockerhubusername/myapp"
+        IMAGE_NAME = "umapathy22/myapp"
         CONTAINER_NAME = "myapp-container"
         DOCKER_CREDENTIALS = "dockerhub-credentials"
     }
