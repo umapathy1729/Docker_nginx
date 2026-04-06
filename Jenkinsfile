@@ -13,7 +13,7 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
+        stage('Git Checkout Code') {
             steps {
                 git url: 'https://github.com/umapathy1729/Docker_nginx.git', branch: 'main'
             }
